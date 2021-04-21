@@ -47,7 +47,7 @@
   <tr>
     <td>Pedro-opnsense-01.home.lab</td>
     <td>
-      <a href="https://192.168.201.82/" target="_blank"><img src="./images/pfsense-logo.png" alt="Girl in a jacketl" style="width:75px;height:75px;" target="_blank"></a>
+      <a href="https://192.168.201.82/" target="_blank"><img src="./images/opnsense.png" alt="Girl in a jacketl" style="width:75px;height:75px;" target="_blank"></a>
     </td>
     <td>Pedro-MCRV-01.home.lab</td>
     <td>
