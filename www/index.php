@@ -122,7 +122,7 @@ echo '<table style="width:100%">';
    while (list($var,$value) = each($_SERVER)) {
       echo "<tr>";
 	  echo "<td>$var</td>";
-	  echo "<td>strval($value)</td>";
+	  echo "<td>$value</td>";
 	  echo "</tr>";
    }
 echo "</table>";  
