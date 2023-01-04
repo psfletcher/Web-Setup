@@ -88,6 +88,9 @@ $HostName = gethostname();
 echo "<h1> $HostName</h1>";
 ?>
 
+<?php
+echo $_SERVER['SERVER_NAME'];
+?>
 
 <?php
 
