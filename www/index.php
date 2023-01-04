@@ -88,16 +88,6 @@ $HostName = gethostname();
 echo "<h1> $HostName</h1>";
 ?>
 
-<?php
-echo $_SERVER['SERVER_NAME'];
-?>
-
-<?php
-foreach ($_SERVER as $parm => $value)  echo "$parm = '$value'\n\r";
-?>
-
-<?php
-
 if (!function_exists('each')) {
     function each(array &$array) {
         $value = current($array);
