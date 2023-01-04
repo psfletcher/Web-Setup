@@ -112,7 +112,7 @@ echo '<table style="width:100%">';
 	  echo "<td>$gethost;</td>";
 	echo "</tr>";
 
-   while (list($var,$value) = each ($_SERVER)) {
+   while (list($var,$value) = each($_SERVER)) {
       echo "<tr>";
 	  echo "<td>$var</td>";
 	  echo "<td>$value</td>";
