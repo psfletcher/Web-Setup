@@ -93,6 +93,10 @@ echo $_SERVER['SERVER_NAME'];
 ?>
 
 <?php
+foreach ($_SERVER as $parm => $value)  echo "$parm = '$value'\n";
+?>
+
+<?php
 
 $gethost=gethostname();
 
