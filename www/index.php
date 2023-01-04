@@ -88,6 +88,7 @@ $HostName = gethostname();
 echo "<h1> $HostName</h1>";
 ?>
 
+<?php
 if (!function_exists('each')) {
     function each(array &$array) {
         $value = current($array);
